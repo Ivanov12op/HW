@@ -18,22 +18,5 @@ if 0<=num<99:
 
 
 
-numbers = []
-
-while True:
-      try:
- 	      x = int( input("Please provide a number: ") )
-      except:
-            continue
-
-      if x==0:
-	      break
-      else:
- 	      numbers.append(x)
-
-list_new = sorted(numbers)
-
-for el in list_new:
-	print(el)
 
 
