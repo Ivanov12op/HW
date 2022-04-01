@@ -12,9 +12,9 @@ while True:
     l=int(input('Enter a num: '))
     l1.append(l)
     if l<0:
-        list_pos= l
+        list_neg= l
     else:
-        list_neg= l 
+        list_pos= l 
 
     print(f'list_pos= {list_pos }, list_neg {list_neg }')
     
