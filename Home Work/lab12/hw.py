@@ -11,6 +11,7 @@ list_pos=0
 while True:
     l=int(input('Enter a num: '))
     l1.append(l)
+  for l in l1[]: 
     if l<0:
         list_neg= l
     else:
